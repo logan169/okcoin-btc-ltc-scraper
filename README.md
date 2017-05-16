@@ -5,8 +5,9 @@ This repo contains an app design to connect through okcoin API every x times and
 It stock data in a sqlite database in db folder. You could then use any sql software to read db and export it in csv format.
 
 Here is an example of data scrapped with this script:
-db file	       timestamp  value   ask Vol  bids Vol
-okcoin_btc_usd 1494954839 1646.94 50.717   86.199
+
+##### db file	       timestamp  value   ask Vol  bids Vol
+##### okcoin_btc_usd 1494954839 1646.94 50.717   86.199
 
 ### Disclaimer
 This script was initialy designed to run continuously on a raspberry pi (rpi). 
