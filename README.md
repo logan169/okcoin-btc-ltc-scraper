@@ -10,9 +10,9 @@ Here is an example of data scrapped with this script:
 ##### okcoin_btc_usd 1494954839 1646.94 50.717   86.199
 
 ### Disclaimer
-This script was initialy designed to run continuously on a raspberry pi (rpi). 
-Be aware that if you choose to do the same, this script is intensive in write/read cycles and may corrupt your rpi sdd card after a while. For this reason, I advice you to run it on an USB key connected to your rpi. 
-I can't be held responsable in any case for any damages that could occurs to your system or hardware while running this script.
+This script was initially designed to run continuously on a raspberry pi (rpi). 
+Beware that if you choose to do the same, this script is intensive in write/read cycles and may corrupt your rpi sdd card after a while. For this reason, I advice you to run it on an USB key connected to your rpi. 
+I can't be held responsable in any case for any damages that could occur to your system or hardware while running this script.
 
 #### Dependancies
 - Python 3
@@ -31,7 +31,7 @@ The print comment of currencyScraper.py have been commented so you will not have
 You could decomment them for test purpose.
 
 #### To launch the app (on your headless rpi)
-clone the repo on a USB key and plug it to your rpi. Connect trought ssh to your rpi and install dependancies.
+Clone the repo on a USB key and plug it to your rpi. Connect through ssh to your rpi and install dependancies.
 After installing dependancies type the following commands:
 
 		$ cd <path to your USB key>
