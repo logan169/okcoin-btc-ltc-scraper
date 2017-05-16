@@ -1,10 +1,17 @@
 # okcoin btc/ltc scraper
 ## Cryptocurrencies scraper
 
-This repo contains an app design to connect trought okcoin API every x times and get btc/ltc value.
+This repo contains an app design to connect through okcoin API every x times and get btc/ltc value.
 It stock data in a sqlite database in db folder. You could then use any sql software to read db and export it in csv format.
 
-It was initialy designed to run continuously on a raspberry pi (rpi). Be aware that if you choose to do he same, this script is intensive in write/read cycles and may corrupt your rpi sdd card. For this reason, it is better to run it on an USB key connected to your rpi.
+Here is an example of data scrapped with this script:
+db file	       timestamp  value   ask Vol  bids Vol
+okcoin_btc_usd 1494954839 1646.94 50.717   86.199
+
+###Disclaimer
+This script was initialy designed to run continuously on a raspberry pi (rpi). 
+Be aware that if you choose to do the same, this script is intensive in write/read cycles and may corrupt your rpi sdd card after a while. For this reason, I advice to run it on an USB key connected to your rpi. 
+I can't be held responsable in any case for any damages that could occurs to your system or hardwayre running this script.
 
 #### Dependancies
 - Python 3
@@ -30,7 +37,7 @@ After installing dependancies type the following commands:
 		$ cd okcoin_scraper/App
 		$ nohup python3 main.py
 
-You could now close the terminal.
+You could now close the terminal and live your life while scrapping btc/ltc data.
 
 ##### Get back db from a headless rpi
 
