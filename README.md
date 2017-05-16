@@ -8,7 +8,7 @@ Here is an example of data scrapped with this script:
 db file	       timestamp  value   ask Vol  bids Vol
 okcoin_btc_usd 1494954839 1646.94 50.717   86.199
 
-###Disclaimer
+### Disclaimer
 This script was initialy designed to run continuously on a raspberry pi (rpi). 
 Be aware that if you choose to do the same, this script is intensive in write/read cycles and may corrupt your rpi sdd card after a while. For this reason, I advice to run it on an USB key connected to your rpi. 
 I can't be held responsable in any case for any damages that could occurs to your system or hardwayre running this script.
